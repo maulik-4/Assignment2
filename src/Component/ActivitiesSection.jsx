@@ -33,7 +33,6 @@ export default function Fetch() {
                     >
                         <h2 className="text-xl font-semibold mb-4">Cart ID: {cart.id}</h2>
 
-                        {/* Only show 5 products */}
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                             {cart.products.slice(0, 5).map((product) => (
                                 <div 
